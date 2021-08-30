@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<deployment>
+  <cluster sitesperhost="10"
+  />
+  <snapshot enabled="true"
+          frequency="30m"
+          prefix="mydb"
+          retain="3" />
+  
+</deployment>
